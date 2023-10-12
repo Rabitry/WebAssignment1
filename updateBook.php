@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body>
-       <h1 id>Book Management System</h1>
+       <h1>Book Management System</h1>
         <div id="form">
         <div class="headingsContainer">
         <h3>Read Book</h3>
@@ -28,7 +28,7 @@
         </form>
         <div class="headingsContainer">
         <h3>Add New Book</h3>
-            <p>Add Book Title,Author,Available,Pages,Isbn</p>
+            <p>Add Book by Title,Author,Available,Pages,Isbn</p>
         </div>  
             <form method="POST" action="saveBook.php"> 
            <input type="text" name="title" placeholder="Add book title"><br></br>
