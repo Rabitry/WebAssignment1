@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,8 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body>
-       <h1 id>Book Management Form</h1>
+       <h1 id>Book Management System</h1>
         <div id="form">
+        <div class="headingsContainer">
+        <h3>Read Book</h3>
+            <p>Read Book and Show as a Table</p>
+        </div>
+            
+            <form method="GET" action="index.php"> 
+           <input type="Submit" id="btn" value="Read Book">
+        </form>
         <div class="headingsContainer">
         <h3>Search Book</h3>
             <p>Search Book By Title or Author Name</p>
@@ -34,11 +41,10 @@
         <div id="form">
         <div class="headingsContainer">
         <h3>Delete Book</h3>
-            <p>Delete Book By Title or Author Name</p>
-        </div>
-            
-            <form method="GET" action="deleteBook.php"> 
-           <input type="text" name="search" placeholder="Delete for a book"><br></br>
+            <p>Delete Book By Isbn</p>
+        </div>  
+            <form method="POST" action="deleteBook.php"> 
+           <input type="text" name="isbn" placeholder="Add Isbn"><br></br>
            <input type="Submit" id="btn" value="Delete Book">
         </form>
         </div>
