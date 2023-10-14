@@ -20,7 +20,8 @@ h1{
     text-align: center;
 }
 .headingsContainer p{
-    color: gray;
+  
+  color:#DEB887;
 }
 form{
     width:35rem;

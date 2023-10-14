@@ -19,12 +19,5 @@
         "available": false,
         "pages": 457,
         "isbn": 9785267006323
-    },
-    {
-        "title": "Hello World",
-        "author": "Rabitry Hasda",
-        "available": "1",
-        "pages": "1234",
-        "isbn": "98765"
     }
 ]

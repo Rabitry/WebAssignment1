@@ -33,7 +33,10 @@
             <form method="POST" action="saveBook.php"> 
            <input type="text" name="title" placeholder="Add book title"><br></br>
            <input type="text" name="author" placeholder="Add book author"><br></br>
-           <input type="text" name="available" placeholder="Add book available or not"><br></br>
+           <p>Available: 
+            <label><input type="radio" name="available" value="true" checked> True</label>
+            <label><input type="radio" name="available" value="false"> False</label>
+        </p>
            <input type="text" name="pages" placeholder="Add book pages"><br></br>
            <input type="text" name="isbn" placeholder="Add book isbn"><br></br>
            <input type="Submit" id="btn" value="Add Book">

@@ -18,15 +18,12 @@ if ($books === null) {
                 unset($books[$key]);
                 $books = array_values($books);
                 $updatedBooksJson = json_encode($books, JSON_PRETTY_PRINT);
-                // file_put_contents('books.json', $updatedBooksJson);
                 if (file_put_contents('books.json', $updatedBooksJson)) {
                     // Redirect back to the index page
                     header('Location: index.php');
                     exit;
-                } else {
-                    echo '<p>Error deleting the book.</p>';
-                }
-                break;
+                } 
+                //break;
             }
         }
         if($check<=0){
